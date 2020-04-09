@@ -38,50 +38,45 @@ class MyApp extends StatelessWidget {
                   letterSpacing: 2.5,
                 ),
               ),
-              Container(
-                color: Colors.white,
-                margin: EdgeInsets.symmetric(horizontal: 25, vertical: 5),
-                padding: EdgeInsets.all(10),
-                child: Row(
-                  children: <Widget>[
-                    Icon(
-                      Icons.alternate_email,
-                      color: Colors.teal.shade900,
-                    ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    Text(
-                      'AVeSuslov@gmail.com',
-                      style: TextStyle(
-                        color: Colors.teal.shade900,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    )
-                  ],
+              SizedBox(
+                height: 20,
+                width: 150,
+                child: Divider(
+                  color: Colors.teal.shade100,
                 ),
               ),
-              Container(
+              Card(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(horizontal: 25, vertical: 10),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.alternate_email,
+                    color: Colors.teal.shade900,
+                  ),
+                  title: Text(
+                    'AVeSuslov@gmail.com',
+                    style: TextStyle(
+                      color: Colors.teal.shade900,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+              ),
+              Card(
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(horizontal: 25, vertical: 5),
-                padding: EdgeInsets.all(10),
-                child: Row(
-                  children: <Widget>[
-                    Icon(
-                      Icons.call,
+                child: ListTile(
+                  leading: Icon(
+                    Icons.call,
+                    color: Colors.teal.shade900,
+                  ),
+                  title: Text(
+                    '+7 (937) 827 08 76',
+                    style: TextStyle(
                       color: Colors.teal.shade900,
+                      fontWeight: FontWeight.bold,
                     ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    Text(
-                      '+7 (937) 827 08 76',
-                      style: TextStyle(
-                        color: Colors.teal.shade900,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    )
-                  ],
+                  ),
                 ),
               ),
             ],
