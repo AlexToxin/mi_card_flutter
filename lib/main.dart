@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.green.shade700,
         body: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
               Text(
                 'WEB DEVELOPER',
                 style: TextStyle(
-                  color: Colors.teal.shade100,
+                  color: Colors.green.shade100,
                   fontSize: 20,
                   fontFamily: 'Source Sans Pro',
                   letterSpacing: 2.5,
@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
                 height: 20,
                 width: 150,
                 child: Divider(
-                  color: Colors.teal.shade100,
+                  color: Colors.green.shade100,
                 ),
               ),
               Card(
@@ -51,12 +51,12 @@ class MyApp extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(
                     Icons.alternate_email,
-                    color: Colors.teal.shade900,
+                    color: Colors.green.shade900,
                   ),
                   title: Text(
                     'AVeSuslov@gmail.com',
                     style: TextStyle(
-                      color: Colors.teal.shade900,
+                      color: Colors.green.shade900,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -68,12 +68,12 @@ class MyApp extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(
                     Icons.call,
-                    color: Colors.teal.shade900,
+                    color: Colors.green.shade900,
                   ),
                   title: Text(
                     '+7 (937) 827 08 76',
                     style: TextStyle(
-                      color: Colors.teal.shade900,
+                      color: Colors.green.shade900,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
