@@ -25,6 +25,6 @@ flutter:
       fonts:
         - asset: fonts/AmaticSC-Regular.ttf
         - asset: fonts/AmaticSC-Bold.ttf
-    - family: Sedgwick Ave Display
+    - family: Source Sans Pro
       fonts:
-        - asset: fonts/SedgwickAveDisplay-Regular.ttf
+        - asset: fonts/SourceSansPro-Regular.ttf

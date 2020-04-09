@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
                 style: TextStyle(
                   color: Colors.teal.shade100,
                   fontSize: 20,
-                  fontFamily: 'Sedgwick Ave Display',
+                  fontFamily: 'Source Sans Pro',
                   letterSpacing: 2.5,
                 ),
               ),
